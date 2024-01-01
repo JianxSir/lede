@@ -304,6 +304,8 @@ menu "Target Images"
 		default 32 if TARGET_rockchip
 		default 128 if TARGET_armvirt
 		default 16
+		help
+		  Select the Kernel size.
 
 	config TARGET_ROOTFS_PARTSIZE
 		int "Root filesystem partition size (in MiB)"
