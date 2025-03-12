@@ -30,8 +30,7 @@ git-src
 .cproject
 .ccache
 .vscode*
-/.idea/.gitignore
-/.idea/lede.iml
-/.idea/misc.xml
-/.idea/modules.xml
-/.idea/vcs.xml
+
+## ignore idea
+*.iml
+/.idea/
